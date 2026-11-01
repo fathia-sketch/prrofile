@@ -1,897 +1,326 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fathiya Hassan - Professional Web Designer and Front-End Developer">
+  <title>Fathiya Hassan | Luxury Portfolio</title>
 
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Fathiya | Web Designer</title>
-
-
-<link rel="stylesheet" href="style.css">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body> 
 
-<!-- ================= HEADER ================= -->
+<body>
 
+<header class="header">
+  <nav class="navbar">
+    <a href="#home" class="logo">Fathiya<span>.</span></a>
 
-<header>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation">
+      <i class="fas fa-bars"></i>
+    </button>
 
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
 
-<nav class="navbar">
-
-
-<div class="logo">
-
-<span>Fathiya</span>
-
-</div>
-
-
-
-<ul class="nav-links">
-
-
-<li>
-<a href="#home">Home</a>
-</li>
-
-
-<li>
-<a href="#about">About</a>
-</li>
-
-
-<li>
-<a href="#skills">Skills</a>
-</li>
-
-
-<li>
-<a href="#projects">Projects</a>
-</li>
-
-
-<li>
-<a href="#contact">Contact</a>
-</li>
-
-
-</ul>
-
-
-
-<a href="#contact" class="btn">
-
-Hire Me
-
-</a>
-
-
-
-</nav>
-
-
+    <a href="#contact" class="btn nav-btn">Hire Me</a>
+  </nav>
 </header>
 
+<main>
 
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <span class="hello">HELLO, WELCOME TO MY WORLD</span>
+      <h1>I'm <span>Fathiya Hassan</span></h1>
+      <h2>Web Designer & Front-End Developer</h2>
+      <p>
+        I create elegant, modern and responsive websites
+        that turn creative ideas into beautiful digital experiences.
+      </p>
 
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">Explore My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
 
-
-
-<!-- ================= HERO ================= -->
-
-
-<section class="hero" id="home">
-
-
-
-<div class="hero-text">
-
-
-<p class="hello">
-
-Hello I'm
-
-</p>
-
-
-<h1>
-
-Fathiya hassan
-
-</h1>
-
-
-
-<h2>
-
-Web Designer & Front-End Developer
-
-</h2>
-
-
-
-<p>
-
-I create modern, responsive and beautiful
-websites for businesses and personal brands.
-
-</p>
-
-
-
-
-<div class="hero-buttons">
-
-
-<a href="#projects" class="btn">
-
-View My Work
-
-</a>
-
-
-
-<a href="#contact" class="btn-outline">
-
-Contact Me
-
-</a>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-<div class="hero-image">
-
+      <div class="hero-social">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/fathia-sketch" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
 
     <div class="hero-image">
-        <div class="hero-image">
-    <img src="images/profiles.png"https://raw.githubusercontent.com/fathia-sketch/profille/main/profile.png" alt="Profile Image"> 
-</div>
-    
-
-
-
-</div>
-
-
-
-</section>
-
-
-
-<!-- ================= ABOUT SECTION ================= -->
-
-<section class="about" id="about">
-
-
-<div class="about-contain"> 
-
-
-
-<div class="about-image">  
-   <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3Dw?" atl=">
-
-
-
-
-
-
-
-</div>
-
-
-
-
-<div class="about-text">
-
-
-
-<span class="section-subtitle">
-About Me
-</span>
-
-
-<h2>
-Creative Web Designer & Front-End Developer
-</h2>
-
-
-<p>
-
-I am a passionate web designer who creates
-modern, responsive and user-friendly websites.
-I enjoy turning ideas into beautiful digital experiences.
-
-</p>
-
-
-<p>
-
-I specialize in HTML, CSS, UI design and creating
-professional websites for businesses and personal brands.
-
-</p>
-
-
-
-<a href="#" class="btn">
-Read More
-</a>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= SKILLS SECTION ================= -->
-
-
-<section class="skills" id="skills">
-
-
-<div class="section-title">
-
-
-<span class="section-subtitle">
-My Skills
-</span>
-
-
-<h2>
-What I Can Do
-</h2>
-
-
-</div>
-
-
-
-
-<div class="skills-container">
-
-
-
-<div class="skill-card">
-
-
-<i class="fa-brands fa-html5"></i>
-
-
-<h3>
-HTML
-</h3>
-
-
-<p>
-Creating clean website structures.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="skill-card">
-
-
-<i class="fa-brands fa-css3-alt"></i>
-
-
-<h3>
-CSS
-</h3>
-
-
-<p>
-Designing modern and responsive layouts.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="skill-card">
-
-
-<i class="fa-brands fa-js"></i>
-
-
-<h3>
-JavaScript
-</h3>
-
-
-<p>
-Adding interactive website features.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="skill-card">
-
-
-<i class="fa-brands fa-figma"></i>
-
-
-<h3>
-UI/UX Design
-</h3>
-
-
-<p>
-Creating attractive designs with Figma.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= PROJECTS SECTION ================= -->
-
-
-<section class="projects" id="projects">
-
-
-<div class="section-title">
-
-
-<span class="section-subtitle">
-My Projects
-</span>
-
-
-<h2>
-Recent Work
-</h2>
-
-
-<p>
-Some websites I have designed and developed.
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="project-container">
-
-
-
-
-
-<div class="project-card">
-
-
-<img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700"
-alt="Luxury House">
-
-
-
-
-
-
-<h3>
- Dream Homes
-</h3>
-
-
-<p>
-A modern Dream Homes is a trusted real estate company
-specializing in buying, selling, and renting
-luxury homes, apartments, and commercial
-properties.gallery and .
-</p>
-
-
-<a href="#" class="project-btn">
-View Project
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="project-card">
-
-
-<img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600" alt="Business Website">
-
-
-<h3>
-Business Company Website
-</h3>
-
-
-<p>
-Professional company website
-with services and contact sections.
-</p>
-
-
-<a href="#" class="project-btn">
-View Project
-</a>
-</div>
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="project-card">
-
-
-<img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=700"
-alt="Real Estate Website">
-
-
-<h3>
-Real Estate Website
-</h3>
-
-
-<p>
-Modern property website with
-homes, agents and listings.
-</p>
-
-
-<a href="#" class="project-btn">
-View Project
-</a>
-
-
-</div>
-
-
-
-
-</div>
-
-
-</section>
-
-
-<!-- ================= SERVICES SECTION ================= -->
-
-<section class="services" id="services">
-
-
-<div class="section-title">
-
-
-<span class="section-subtitle">
-My Services
-</span>
-
-
-<h2>
-What I Offer
-</h2>
-
-
-<p>
-Professional solutions for businesses and personal brands.
-</p>
-
-
-</div>
-
-
-
-
-<div class="services-container">
-
-
-
-<div class="service-card">
-
-
-<i class="fa-solid fa-laptop-code"></i>
-
-
-<h3>
-Website Design
-</h3>
-
-
-<p>
-I design modern and responsive websites
-that look great on all devices.
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="service-card">
-
-
-<i class="fa-solid fa-code"></i>
-
-
-<h3>
-Front-End Development
-</h3>
-
-
-<p>
-I build websites using HTML, CSS and JavaScript
-with clean code.
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="service-card">
-
-
-<i class="fa-solid fa-pen-ruler"></i>
-
-
-<h3>
-UI/UX Design
-</h3>
-
-
-<p>
-I create attractive user interfaces
-using modern design principles.
-</p>
-
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= CONTACT SECTION ================= -->
-
-
-<section class="contact" id="contact">
-
-
-
-<div class="section-title">
-
-
-<span class="section-subtitle">
-Contact Me
-</span>
-
-
-<h2>
-Let's Work Together
-</h2>
-
-
-<p>
-Have a project idea? Send me a message.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="contact-container">
-
-
-
-<div class="contact-info">
-
-
-<h3>
-Get In Touch
-</h3>
-
-
-<p>
-I am available for website design
-and front-end development projects.
-</p>
-
-
-
-<div class="contact-item">
-
-<i class="fa-solid fa-envelope"></i>
-
-<span>
-fadxiyaxasan65@gmail.com
-</span>
-
-</div>
-
-
-
-
-<div class="contact-item">
-
-<i class="fa-solid fa-phone"></i>
-
-<span>
-+252 634732553
-</span>
-
-</div>
-
-
-
-<div class="contact-item">
-
-<i class="fa-solid fa-location-dot"></i>
-
-<span>
-Somaliland
-</span>
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-<form class="contact-form">
-
-
-<input type="text" placeholder="Your Name">
-
-
-<input type="email" placeholder="Your Email">
-
-
-<input type="text" placeholder="Subject">
-
-
-<textarea placeholder="Your Message"></textarea>
-
-
-
-<button class="btn">
-
-Send Message
-
-</button>
-
-
-
-</form>
-
-
-
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= FOOTER ================= -->
-
-
+      <div class="image-frame">
+        <img src="images/profile.PNG" alt="Fathiya Hassan">
+      </div>
+      <div class="gold-circle"></div>
+      <div class="image-label">CREATIVE DESIGNER</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/profile.PNG" alt="About Fathiya">
+      </div>
+
+      <div class="about-text">
+        <span class="section-subtitle">GET TO KNOW ME</span>
+        <h2>Creating Digital Experiences With <span>Passion</span></h2>
+
+        <p>
+          I am a passionate web designer and front-end developer
+          who loves creating modern, responsive and user-friendly websites.
+        </p>
+
+        <p>
+          I specialize in HTML, CSS, JavaScript and UI/UX design.
+          My goal is to transform ideas into professional digital experiences.
+        </p>
+
+        <a href="#contact" class="btn">Let's Talk <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="section-title">
+      <span class="section-subtitle">MY EXPERTISE</span>
+      <h2>My Creative <span>Skills</span></h2>
+      <p>Technologies and tools I use to create amazing websites.</p>
+    </div>
+
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+        <p>Building clean and meaningful website structures.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+        <p>Creating beautiful and responsive layouts.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>Adding interactive and dynamic features.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-figma"></i>
+        <h3>UI/UX Design</h3>
+        <p>Designing attractive and user-friendly interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="section-title">
+      <span class="section-subtitle">MY PORTFOLIO</span>
+      <h2>Featured <span>Projects</span></h2>
+      <p>A selection of my creative website projects.</p>
+    </div>
+
+    <div class="project-container">
+      <article class="project-card">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800" alt="Dream Homes">
+        <div class="project-content">
+          <span class="project-category">REAL ESTATE</span>
+          <h3>Dream Homes</h3>
+          <p>A modern real estate website for luxury homes and properties.</p>
+          <a href="#" class="project-btn">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800" alt="Business Website">
+        <div class="project-content">
+          <span class="project-category">BUSINESS</span>
+          <h3>Business Website</h3>
+          <p>A professional business website with modern services and layouts.</p>
+          <a href="#" class="project-btn">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800" alt="Real Estate Website">
+        <div class="project-content">
+          <span class="project-category">WEB DESIGN</span>
+          <h3>Luxury Properties</h3>
+          <p>A stylish property website with beautiful home listings.</p>
+          <a href="#" class="project-btn">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="section-title">
+      <span class="section-subtitle">WHAT I DO</span>
+      <h2>My <span>Services</span></h2>
+      <p>Creative digital solutions for your business.</p>
+    </div>
+
+    <div class="services-container">
+      <div class="service-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Website Design</h3>
+        <p>Beautiful and responsive websites for businesses and brands.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-code"></i>
+        <h3>Front-End Development</h3>
+        <p>Modern websites built with HTML, CSS and JavaScript.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-pen-ruler"></i>
+        <h3>UI/UX Design</h3>
+        <p>Creative and user-friendly digital interface designs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="section-title">
+      <span class="section-subtitle">GET IN TOUCH</span>
+      <h2>Let's Create Something <span>Beautiful</span></h2>
+      <p>Have a project in mind? I would love to hear from you.</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Let's Work Together</h3>
+        <p>I am available for website design and front-end development projects.</p>
+
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:fadxiyaxasan65@gmail.com">fadxiyaxasan65@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:+252634732553">+252 634732553</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-location-dot"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Somliya</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
 <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-box">
+      <a href="#home" class="logo">Fathiya<span>.</span></a>
+      <p>Creating modern and elegant digital experiences.</p>
+    </div>
 
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-<div class="footer-container">
+    <div class="footer-box">
+      <h3>Follow Me</h3>
+      <div class="footer-social">
+        
+    
+        <a href="#" aria-label="WhatsApp" class="whatsapp"><i class="fab fa-whatsapp"></i>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/fathia-sketch" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
 
-
-
-<div class="footer-box">
-
-
-<h2>
-Fathiya
-</h2>
-
-
-<p>
-
-Web Designer creating modern
-digital experiences.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="footer-box">
-
-
-<h3>
-Quick Links
-</h3>
-
-
-<ul>
-
-<li>Home</li>
-
-<li>About</li>
-
-<li>Skills</li>
-
-<li>Projects</li>
-
-<li>Contact</li>
-
-</ul>
-
-
-</div>
-
-
-
-
-
-
-<div class="footer-box">
-
-
-<h3>
-Follow Me
-</h3>
-
-
-<div class="footer-social">
-
-
-<i class="fa-brands fa-facebook"></i>
-
-<i class="fa-brands fa-instagram"></i>
-
-<i class="fa-brands fa-linkedin"></i>
-
-<i class="fa-brands fa-github"></i>
-
-
-</div>
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-<div class="copyright">
-
-© 2026 Farhiya. All Rights Fathiya.
-
-</div>
-
-
-
+  <div class="copyright">
+    © 2026 Fathiya Hassan. All Rights Fathiya.
+  </div>
 </footer>
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    menuToggle.innerHTML = navLinks.classList.contains("active")
+      ? '<i class="fas fa-times"></i>'
+      : '<i class="fas fa-bars"></i>';
+  });
+
+  document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+      menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+    });
+  });
+
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+
+    const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+    const mailto = `mailto:fadxiyaxasan65@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailto;
+  });
+</script>
+
 </body>
-
 </html>
-
